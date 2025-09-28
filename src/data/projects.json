@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Interactive Single-Layer Neural Network in Python",
+    "imageSrc": "ann.png",
+    "description": "A from-scratch implementation of a single-neuron neural network in Python, upgraded with an interactive Streamlit user interface. The program demonstrates core machine learning concepts like forward propagation, backpropagation, and gradient descent; as well as allows users to adjust parameters like Learning Rate and Epochs to see real-time training results.",
+    "skills": ["Python", "Streamlit", "NumPy", "Machine Learning Fundamentals", "Data Normalization"],
+    "demo": "https://simple-neural-network-bpssq9lufjgkclct7qmn9w.streamlit.app/",
+    "source": "https://github.com/sayyeda-16/simple-neural-network"
+  },
+  {
+    "title": "Test Your Romedy Knowledge Quiz: React & TypeScript Web App",
+    "imageSrc": "romedy.png",
+    "description": "An interactive web application built with React and advanced TypeScript for robust type safety. It tests users' romantic comedy knowledge with dynamic quiz lengths, randomized questions, real-time scoring, and instant visual feedback, with a fully responsive, thematic UI.",
+    "skills": ["React (v18+)", "TypeScript (v5+)", "Vite", "Frontend Development", "CSS3", "State Management", "Responsive Web Design", "UI/UX", "JSON Data Handling"],
+    "demo": "https://sayyeda-16.github.io/romedy-lovers-quiz/",
+    "source": "https://github.com/sayyeda-16/romedy-lovers-quiz"
+  },
+  {
+    "title": "Calendar Web App",
+    "imageSrc": "calendar.png",
+    "description": "A dynamic event management and scheduling web application built with vanilla HTML, CSS, and JavaScript. Features persistent data storage via local Storage, time conflict detection for bookings, seamless date navigation, and a fully responsive design. Users can view, book, and delete events with an intuitive UI.",
+    "skills": ["HTML5", "CSS3", "JavaScript (Vanilla)", "Local Storage", "Event Handling", "DOM Manipulation", "Responsive Web Design", "UI/UX"],
+    "demo": "https://sayyeda-16.github.io/principles_calendar_project/",
+    "source": "https://github.com/sayyeda-16/principles_calendar_project"
+  },
+  {
+    "title": "MERN Stack To-Do List Application",
+    "imageSrc": "todo.png",
+    "description": "Developed a full-stack to-do list application using the MERN stack (MongoDB, Express, React, Node.js). It supports complete CRUD operations, ensuring persistent task management by storing all data in a MongoDB Atlas database. The project features a modular architecture and real-time UI synchronization via asynchronous API calls to RESTful endpoints.",
+    "skills": ["MongoDB", "Express.js", "React", "Node.js", "Full-Stack Development", "REST API", "CRUD Operations", "JavaScript (ES6+)", "Axios", "MongoDB Atlas"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/to-do-list-mern"
+  },
+  {
+    "title": "Java Airline Reservation System Simulator",
+    "imageSrc": "airline.png",
+    "description": "A comprehensive Java application simulating an airline reservation system. It employs Dijkstra's algorithm to efficiently find the shortest routes between cities based on cost and time. Passenger bookings are managed in priority order using a Priority Queue, demonstrating robust data structure implementation for a real-world scenario.",
+    "skills": ["Java", "Dijkstra's Algorithm", "Graph Data Structure", "Priority Queue", "HashMap", "Object-Oriented Programming (OOP)", "Input Validation"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/java-airline-reservation-system"
+  },
+  {
+    "title": "C++ Number Systems Conversion Calculator (with Fractional Support)",
+    "imageSrc": "numberconvert.png",
+    "description": "A C++ console application that serves as a number systems calculator, converting between Binary (Base 2), Decimal (Base 10), and Hexadecimal (Base 16). Specifically engineered to handle complex conversions, including those with fractional parts. Features comprehensive input validation and utilizes mathematical functions for correct processing.",
+    "skills": ["C++", "Number Systems Conversion", "Algorithms", "Mathematics (pow)", "Input Validation", "Console Application"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/number_system_converter"
+  },
+  {
+    "title": "Sinusoidal Signal Interference Simulator",
+    "imageSrc": "wave.png",
+    "description": "An interactive Streamlit application that simulates and visualizes the interference of two sinusoidal electromagnetic waves. Users can adjust parameters (Amplitude, Frequency, Phase) for both signals and immediately see the resulting summation signal. Features dual-domain plotting for Time and Distance.",
+    "skills": ["Python", "Streamlit", "NumPy", "Matplotlib", "Electromagnetics", "Signal Processing", "Interactive Visualization"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/sinusoidal-signal-simulator"
+  },
+  {
+    "title": "Interactive Radar Simulation",
+    "imageSrc": "radar.png",
+    "description": "A dynamic simulation of a radar system searching for a randomly placed airplane. Uses Streamlit for the live UI and Matplotlib to generate a frame-by-frame animation of the expanding radar pulse (blue circle) and the moment of detection (green dot). Demonstrates real-time data visualization in a web environment.",
+    "skills": ["Python", "Streamlit", "Matplotlib", "Data Visualization", "Simulation", "FuncAnimation"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/python-radar-simulation"
+  },
+  {
+    "title": "Java Console-Based Receipt System",
+    "imageSrc": "receipt.png",
+    "description": "A console-based Java application built to simulate a receipt management system. The design emphasizes core Object-Oriented Programming (OOP) principles, including inheritance and polymorphism, to model payment types. The system uses ArrayLists for data storage and includes functionality for generating comprehensive sales reports and robust error handling.",
+    "skills": ["Java", "Object-Oriented Programming (OOP)", "Inheritance & Polymorphism", "ArrayList", "Data Management", "Error Handling"],
+    "demo": null,
+    "source": "https://github.com/sayyeda-16/java-receipt-system/tree"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Software Developer Intern",
+    "organisation": "Wouessi Digital",
+    "startDate": "March 2025",
+    "endDate": "April 2025",
+    "experiences": ["Used HTML, CSS, and JavaScript to develop a foundational timesheet management module for the Wouessi Digital Employee Management System (EMS), implementing key features like client-side form validation and an automated total hour calculation to streamline data entry and reporting.", 
+    "Contributed to the EMS project by meticulously following a structured development workflow, which included creating ClickUp tickets, managing Git feature branches, and actively participating in code reviews and testing, ensuring the work was clean, well-documented, and seamlessly integrated into the application.",
+  "Collaborated effectively with a remote development team through synchronous online meetings, using a structured workflow to create detailed tickets, manage feature branches, and to ensure all contributions to the Employee Management System were seamlessly integrated and of high quality."],
+    "imageSrc": "Wouessi.png"
+  },
+  {
+  "role": "Youth in Policing Student Team Member",
+  "organisation": "Durham Regional Police Service",
+  "startDate": "November 2022",
+  "endDate": "March 2023",
+  "experiences": [
+    "Completed training sessions and certifications to enhance communication, collaboration, technical, and problem-solving skills.",
+    "Participated in the planning and organization of the Coldest Night of the Year fundraising initiative.",
+    "Motivated team members, delegated tasks, and created promotional materials to raise awareness, ensuring the team met fundraising goals, while developing teamwork skills, personal initiative, and interpersonal relationships.",
+    "Broadened perspective and gained inspiration for future leadership and community engagement opportunities."
+  ],
+  "imageSrc": "YIPlogo.jpeg"
+}
+]

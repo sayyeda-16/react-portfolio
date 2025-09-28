@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "python.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "java.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "C++.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "javascript.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "php.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "sql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "mongodb.png"
+  },
+  {
+    "title": "Express",
+    "imageSrc": "express.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "MS Office 365",
+    "imageSrc": "microsoft.png"
+  },
+  {
+    "title": "Google Suite",
+    "imageSrc": "googlesuite.png"
+  },
+  {
+    "title": "Canva",
+    "imageSrc": "canva.png"
+  }
+]

@@ -1,0 +1,16 @@
+:root {
+  /* Colours */
+  --color-text: #E0FFE0; /* A very light, almost off-white green, ensuring high contrast and readability */
+  --color-primary: #509C5C; /* A rich, medium-toned green, serving as the main interactive color */
+  --color-secondary: #2C6933; /* A deeper, more subdued green for secondary elements and subtle accents */
+  --color-dark: #124016; /* A very dark, almost forest-like green for backgrounds of sections or cards */
+  --color-bg: #071F09; /* The darkest green, providing a deep, almost black foundation for the overall design */
+
+/* Gradients */
+--gradient-primary: radial-gradient(circle at center, var(--color-secondary) 0%, var(--color-dark) 60%, var(--color-bg) 100%);
+--gradient-secondary: radial-gradient(circle farthest-side at top right, rgba(80, 156, 92, 0.15) 0%, rgba(18, 64, 22, 0.1) 50%, rgba(7, 31, 9, 0) 100%);
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-outfit: "Outfit";
+}

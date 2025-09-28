@@ -1,0 +1,153 @@
+@import "../../vars.css";
+
+/* --- Base Container & Title --- */
+.container {
+  color: var(--color-text);
+  margin-top: 75px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5%; 
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+/* --- Content Section  --- */
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: clamp(20px, 5vw, 50px);
+}
+
+.history {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: radial-gradient(
+    circle at center,
+    rgba(80, 156, 92, 0.3) 0%,
+    rgba(18, 64, 22, 0.2) 50%,
+    rgba(7, 31, 9, 0) 100%
+  );
+  box-shadow: 0 16px 14px 0 var(--color-secondary);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* --- Font Sizes & Details --- */
+.historyItem img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-top: 0;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  font-size: 1.625rem; 
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.historyItemDetails p {
+  font-size: 1.125rem; 
+  font-weight: 300;
+  margin-top: 6px;
+}
+
+.historyItemDetails ul {
+  margin-top: 10px;
+  list-style-position: outside;
+  font-size: 1.125rem; 
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.historyItemDetails ul li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+/* --- Responsiveness for Mobile/Tablet --- */
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 50px;
+    padding: 0 20px; 
+  }
+
+  .title {
+    font-size: clamp(24px, 6vw, 32px); /* A tighter clamp for mobile titles */
+    margin-bottom: 25px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .history {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .historyItem {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .historyItem img {
+    margin-bottom: 15px;
+  }
+
+  .historyItemDetails {
+    text-align: left; 
+    width: 100%;
+  }
+
+  .historyItemDetails h3 {
+    text-align: center; 
+    font-size: 1.375rem; 
+  }
+
+  .historyItemDetails p {
+    font-size: 1rem; 
+    text-align: center; 
+  }
+
+  .historyItemDetails ul {
+    font-size: 1rem; 
+    padding-left: 20px;
+    list-style-position: inside; 
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .historyItemDetails ul li {
+    margin-bottom: 4px;
+  }
+}

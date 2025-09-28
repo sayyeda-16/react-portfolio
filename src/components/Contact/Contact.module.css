@@ -1,0 +1,211 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 100px; 
+  background: radial-gradient(circle at center, rgba(80, 156, 92, 0.3) 0%, rgba(18, 64, 22, 0.2) 50%, rgba(7, 31, 9, 0) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 40px 10%;
+  gap: 30px;
+  box-sizing: border-box; 
+}
+
+.text h2 {
+  font-size: 60px; 
+  font-weight: 700;
+  letter-spacing: 3px; 
+  line-height: 1.2; 
+}
+
+.text p {
+  font-size: 20px; 
+  font-weight: 400;
+  letter-spacing: 1.5px; 
+  margin-top: 10px; 
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 20px; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0; 
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px; 
+  font-weight: 400;
+  letter-spacing: 1px; 
+  line-height: 1.4; 
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 30px; 
+    margin-top: 60px; 
+    padding: 30px 5%; 
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+
+  .text h2 {
+    font-size: 40px; 
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 20px; 
+    letter-spacing: 1px;
+    margin-top: 8px;
+  }
+
+  .links {
+    align-items: center; 
+    gap: 15px; 
+  }
+
+  .link {
+    gap: 10px; 
+  }
+
+  .link img {
+    width: 25px; 
+    height: 25px;
+  }
+
+  .link a {
+    font-size: 16px; 
+    letter-spacing: 0.8px;
+  }
+}
+
+.contactFormOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: var(--font-outfit);
+}
+
+.contactFormContainer {
+    background-color: var(--color-bg);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    border: 1px solid rgba(80, 156, 92, 0.5); 
+    color: var(--color-text); 
+}
+
+.contactFormContainer h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--color-text);
+    margin-bottom: 1.5rem;
+}
+
+.contactFormContainer input,
+.contactFormContainer textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--gradient-primary); 
+    background-color: var(--gradient-secondary); 
+    color: var(--color-text);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: var(--font-outfit);
+    letter-spacing: 1px;
+    resize: none;
+}
+
+.contactFormContainer input:focus,
+.contactFormContainer textarea:focus {
+    outline: none;
+    border-color: var(--color-primary); 
+}
+
+.contactFormContainer input::placeholder,
+.contactFormContainer textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.contactFormContainer button[type="submit"] {
+    background-color: var(--gradient-primary); 
+    color: var(--color-text);
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s ease;
+}
+
+.contactFormContainer button[type="submit"]:hover {
+    background-color: var(--color-secondary); 
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: var(--color-text);
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+}
+
+/* Responsive adjustments for the form */
+@media screen and (max-width: 830px) {
+    .contactFormContainer {
+        padding: 2rem;
+    }
+
+    .contactFormContainer h2 {
+        font-size: 2.5rem;
+    }
+
+    .contactFormContainer input,
+    .contactFormContainer textarea {
+        font-size: 0.9rem;
+    }
+}
