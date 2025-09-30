@@ -24,6 +24,22 @@
     "source": "https://github.com/sayyeda-16/principles_calendar_project"
   },
   {
+    "title": "Sinusoidal Signal Interference Simulator",
+    "imageSrc": "wave.png",
+    "description": "An interactive Streamlit application that simulates and visualizes the interference of two sinusoidal electromagnetic waves. Users can adjust parameters (Amplitude, Frequency, Phase) for both signals and immediately see the resulting summation signal. Features dual-domain plotting for Time and Distance.",
+    "skills": ["Python", "Streamlit", "NumPy", "Matplotlib", "Electromagnetics", "Signal Processing", "Interactive Visualization"],
+    "demo": "https://sinusoidal-signal-simulator-7arvzd4tappezvkfd7u9vxp.streamlit.app/",
+    "source": "https://github.com/sayyeda-16/sinusoidal-signal-simulator"
+  },
+  {
+    "title": "Interactive Radar Simulation",
+    "imageSrc": "radar.png",
+    "description": "A dynamic simulation of a radar system searching for a randomly placed airplane. Uses Streamlit for the live UI and Matplotlib to generate a frame-by-frame animation of the expanding radar pulse (blue circle) and the moment of detection (green dot). Demonstrates real-time data visualization in a web environment.",
+    "skills": ["Python", "Streamlit", "Matplotlib", "Data Visualization", "Simulation", "FuncAnimation"],
+    "demo": "https://python-radar-simulation-guldcgwbtcrfci5csaxwmj.streamlit.app/",
+    "source": "https://github.com/sayyeda-16/python-radar-simulation"
+  },
+  {
     "title": "MERN Stack To-Do List Application",
     "imageSrc": "todo.png",
     "description": "Developed a full-stack to-do list application using the MERN stack (MongoDB, Express, React, Node.js). It supports complete CRUD operations, ensuring persistent task management by storing all data in a MongoDB Atlas database. The project features a modular architecture and real-time UI synchronization via asynchronous API calls to RESTful endpoints.",
@@ -46,22 +62,6 @@
     "skills": ["C++", "Number Systems Conversion", "Algorithms", "Mathematics (pow)", "Input Validation", "Console Application"],
     "demo": null,
     "source": "https://github.com/sayyeda-16/number_system_converter"
-  },
-  {
-    "title": "Sinusoidal Signal Interference Simulator",
-    "imageSrc": "wave.png",
-    "description": "An interactive Streamlit application that simulates and visualizes the interference of two sinusoidal electromagnetic waves. Users can adjust parameters (Amplitude, Frequency, Phase) for both signals and immediately see the resulting summation signal. Features dual-domain plotting for Time and Distance.",
-    "skills": ["Python", "Streamlit", "NumPy", "Matplotlib", "Electromagnetics", "Signal Processing", "Interactive Visualization"],
-    "demo": null,
-    "source": "https://github.com/sayyeda-16/sinusoidal-signal-simulator"
-  },
-  {
-    "title": "Interactive Radar Simulation",
-    "imageSrc": "radar.png",
-    "description": "A dynamic simulation of a radar system searching for a randomly placed airplane. Uses Streamlit for the live UI and Matplotlib to generate a frame-by-frame animation of the expanding radar pulse (blue circle) and the moment of detection (green dot). Demonstrates real-time data visualization in a web environment.",
-    "skills": ["Python", "Streamlit", "Matplotlib", "Data Visualization", "Simulation", "FuncAnimation"],
-    "demo": null,
-    "source": "https://github.com/sayyeda-16/python-radar-simulation"
   },
   {
     "title": "Java Console-Based Receipt System",
